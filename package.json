@@ -1,0 +1,32 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "Restful Todolistapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogeeshadiga/NodeCode.git"
+  },
+  "keywords": [
+    "\"Restful\"",
+    "\"API\""
+  ],
+  "author": "Yogeesha Adiga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yogeeshadiga/NodeCode/issues"
+  },
+  "homepage": "https://github.com/yogeeshadiga/NodeCode#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.9"
+  }
+}
